@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>
+            star-shopping
+        </title>
+ 
+    </head>     
+    <link rel="stylesheet" href="styles.css" /> 
+    <body>
+        <div class="grid-container">
+            <header class="header">
+                
+             <div class="brand">
+                <button onclick="openMenu()">
+                    &#9776; 
+                 </button>
+            <a href="index.html">Star Classes</a>
+             </div>
+            
+            </header>
+            <aside class="sidebar">
+                <h3>shopping catagories</h3>
+                <button class="sidebar-close-button" onclick="closeMenu()">X</button>
+                <ul>
+                    <li>
+                        <a href="abc.html">Assignment</a>
+                        
+                    </li>
+                    
+                     <li>
+                        <a href="test.html">test</a>
+                    </li>
+                    <li>
+                        <a href="attendance.html">Attendace</a>
+                    </li>
+                    
+
+                </ul>
+
+
+            </aside>
+            
+            <main class="main">
+                <div class="content">
+                   
+                   
+                    
+            </main>
+            <footer class="footer">
+                all rights reserved
+            </footer>
+        </div>
+        <script>
+            function openMenu(){
+                document.querySelector(".sidebar").classList.add("open");
+  
+            }
+            function closeMenu(){
+                document.querySelector(".sidebar").classList.remove("open");
+            }
+        </script>
+    </body>
+</html>

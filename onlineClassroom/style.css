@@ -1,0 +1,51 @@
+*{
+	box-sizing: border-box; 
+}
+body{
+	margin:0;
+	padding:0;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	min-height: 100vh;
+	 background-image: url("./images/classroom.jpg");
+	}
+	#h1{
+		text-align: center;
+		color: #270A95;
+	}
+
+.container{
+	display:flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+
+}
+.container .box{
+	position: relative;
+	width: 350px;
+	padding: 40px;
+	background: #D7ECDE;
+	box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+	border-radius: 4px solid black;
+	box-sizing: border-box;
+	font-size: 20px;
+	margin: 20px;
+}
+a{
+  display: inline-block;
+  padding: 10px 20px;
+  background: red;
+  border-radius: 4px;
+  text-decoration: none;
+  color: black;
+
+
+
+
+
+
+
+
+}
+
